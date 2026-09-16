@@ -1,0 +1,4 @@
+◇ injected env (3) from .env // tip: ⌘ enable debugging { debug: true }
+process.env.MONGO_URI
+MongoDB connected successfully
+CRM server is running on port 5000
