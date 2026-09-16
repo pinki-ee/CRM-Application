@@ -1,16 +1,82 @@
-# React + Vite
+# CRM Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Customer Relationship Management (CRM) application designed to help organizations manage customers, leads, deals, users, and business activities through a centralized and responsive platform.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The CRM Application provides a structured platform for managing customer relationships and sales-related data.
 
-## React Compiler
+It includes secure authentication, role-based access, a responsive dashboard, customer management, lead management, deal management, activity tracking, user profiles, and an admin management panel.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application is built with a modern React frontend and a Node.js/Express backend connected to MongoDB.
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Authentication
+- User registration and login
+- Secure authentication using JWT
+- Role-based access for Users and Admins
+- Protected routes and API endpoints
+
+### 📊 Dashboard
+- Overview of customers, leads, and deals
+- Recent activity section
+- Data visualization with charts
+- Responsive dashboard layout
+
+### 👥 Customer Management
+- View customer records
+- Add new customers
+- Edit customer information
+- Delete customer records
+- Organized customer data management
+
+### 🎯 Lead Management
+- View and manage leads
+- Add new leads
+- Update lead information
+- Delete leads
+- Track lead-related information
+
+### 💼 Deal Management
+- View deals
+- Create new deals
+- Update deal information
+- Delete deals
+- Manage sales-related records
+
+### 🛡️ Admin Panel
+- Admin authentication
+- User management
+
+### 👤 Profile
+- User profile page
+- User information management
+- Logout functionality
+
+### 📱 Responsive Design
+- Responsive interface for laptop, and mobile screens
+- Clean and user-friendly UI
+- Reusable React components
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide React Icons
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+
+### Development & Testing
+- VS Code
+- GitHub
+- Thunder Client
+- MongoDB
