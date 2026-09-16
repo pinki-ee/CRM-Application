@@ -60,7 +60,7 @@ const LoginPage = () => {
 
       // Role based redirect
       if (user?.role === "admin") {
-        navigate("/admin");
+        navigate("/admin/dashboard");
       } else {
         navigate("/dashboard");
       }
